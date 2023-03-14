@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+@font-face {
+  font-family: warsaw gothic;
+  src: url(./warsaw-gothic-font/WarsawGothic-BnBV.otf);
+}
+
+.gothic {
+  font-family: warsaw gothic;
+}
+
+body {
+  
+}
+
+/* Styling to change the appearance of the scroll bars */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.nav:hover {
+
+}
+
+.nav {
+}
+
+.trans {
+  transition: all ease .4s;
+}
+
+.grad2 {
+  background: linear-gradient(0deg, #13B0F5 -2.06%, #E70FAA 100%);
+}
+
+.grad {
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.shadowed {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+}
+
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+  ;
+}
+
+.inter {
+  font-family: 'Roboto', sans-serif;
+}
