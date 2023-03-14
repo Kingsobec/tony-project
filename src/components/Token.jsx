@@ -3,7 +3,7 @@ import { landingBg } from '../assets'
 
 const Token = () => {
   return (
-    <div className="flex justify-between items-center flex-wrap">
+    <div className="flex justify-between items-center flex-wrap" id='token'>
       <img src={landingBg} alt="" className='w-full md:w-[40%] m-auto'/>
           <div className=' text-center text-white uppercase flex flex-col justify-center items-center px-8 m-auto'>
       <h2 className='text-[#fff] underline uppercase gothic text-[2.5rem] text-center my-8 font-semibold '>the token</h2>

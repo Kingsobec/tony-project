@@ -3,7 +3,7 @@ import { book } from '../assets'
 
 const About = () => {
   return (
-    <div className='back min-h-[300px] flex justify-center items-center'>
+    <div className='back min-h-[300px] flex justify-center items-center' id='about'>
       <div className="relative flex justify-center w-full">
         
         <div className="top-[20%] w-[80%] md:w-[60%] lg:w-[40%] trans book py-10 px-8 rounded-lg my-5 md:my-8 lg:my-[4rem]">

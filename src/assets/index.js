@@ -4,6 +4,9 @@ import landingBg from './landingImage.jpg'
 import sticker from './stickerLogo.png'
 import wood from './wood.jpg'
 import book from './book.webp'
+import telegram from './telegram.webp'
+import twitter from './twitter.webp'
+import discord from './discord.png'
 
 
 export {
@@ -13,4 +16,7 @@ export {
   sticker,
   wood,
   book,
+  telegram,
+  twitter,
+  discord,
 }

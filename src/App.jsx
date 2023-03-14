@@ -3,7 +3,7 @@ import { Navbar, LandingPage, About, Token, Roadmap, Footer } from './components
 
 const App = () => {
   return (
-    <div>
+    <div className='max-w-[2000px] m-auto min-h-[350px]'>
       <Navbar />
       <LandingPage/>
       <About/>

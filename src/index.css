@@ -8,6 +8,9 @@
   font-family: warsaw gothic;
   src: url(./warsaw-gothic-font/WarsawGothic-BnBV.otf);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .gothic {
   font-family: warsaw gothic;
@@ -95,6 +98,11 @@ body {
   background: url(./assets/book.webp) no-repeat;
   background-position: center;
 }
+.book2{
+  background: url(./assets/book.webp) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(253, 15, 15, 0) 0%, #ff0000 100%);
@@ -111,7 +119,3 @@ body {
   filter: blur(750px);
 }
 
-.road{
-  background: url(./assets/pexels-magda-ehlers-960137.jpg) no-repeat center;
-  background-size: cover;
-}

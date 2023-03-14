@@ -17,8 +17,8 @@ const LandingPage = () => {
         </div>
           
         <div className=" flex flex-col gap-5 w-full md:w-auto md:mr-5 justify-center">
-          <button className=" text-[2rem] bg-[#ffa000] py-2 rounded-[20px] hover:bg-[#8b2000] hover:text-white text-shadow-xl trans px-8 font-semibold uppercase gothic ">buy $shs</button>
-          <button className=" text-[2rem] bg-[#ffa000] py-2 rounded-[20px] hover:bg-[#ae2000] hover:text-white text-shadow-xl trans px-8 font-semibold uppercase gothic mb-[4rem] ">chart</button>
+          <button className=" text-[2rem] bg-[#ffa000] py-2 rounded-[30px] hover:bg-[#8b2000] hover:text-white text-shadow-xl trans px-8 font-semibold uppercase gothic ">buy $shs</button>
+          <button className=" text-[2rem] bg-[#ffa000] py-2 rounded-[30px] hover:bg-[#ae2000] hover:text-white text-shadow-xl trans px-8 font-semibold uppercase gothic mb-[4rem] ">chart</button>
         </div>
       </div>
       
