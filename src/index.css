@@ -14,7 +14,7 @@
 }
 
 body {
-  
+  background-color: #040404;
 }
 
 /* Styling to change the appearance of the scroll bars */
@@ -80,4 +80,38 @@ body {
 
 .inter {
   font-family: 'Roboto', sans-serif;
+}
+
+.landing{
+  background: url(./assets/video.mp4);
+}
+
+.back{
+  background: url(./assets/wood.jpg) top;
+  background-size: cover;
+
+}
+.book{
+  background: url(./assets/book.webp) no-repeat;
+  background-position: center;
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(253, 15, 15, 0) 0%, #ff0000 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #eeeb09 0%, #fbf825 100%);
+  filter: blur(500px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.road{
+  background: url(./assets/pexels-magda-ehlers-960137.jpg) no-repeat center;
+  background-size: cover;
 }
